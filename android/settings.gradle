@@ -1,0 +1,5 @@
+pluginManagement { includeBuild("../node_modules/@react-native/gradle-plugin") }
+plugins { id("com.react.settings") }
+extensions.configure(com.ReactSettingsExtension){ ex -> ex.autolinkLibrariesFromCommand() }
+rootProject.name = 'TrackTicket'
+include ':app'
